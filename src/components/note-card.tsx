@@ -5,12 +5,14 @@ import { X } from "lucide-react";
 
 interface NoteCardProps {
   note: {
+    id: string;
     date: Date;
     content: string;
   };
+  handleDelete: (id: string) => void;
 }
 
-export function NoteCard({ note }: NoteCardProps) {
+export function NoteCard({ note, handleDelete }: NoteCardProps) {
   return (
     <Dialog.Root>
       <Dialog.Trigger className="rounded-md text-left flex flex-col bg-slate-800 p-5 gap-3 overflow-hidden outline-none relative hover:ring-2 hover:ring-slate-600 focus-visible:ring-2 focus-visible:ring-lime-400 focus:ring-2 focus:ring-lime-400">
@@ -25,7 +27,7 @@ export function NoteCard({ note }: NoteCardProps) {
       </Dialog.Trigger>
       <Dialog.Portal>
         <Dialog.Overlay className="inset-0 fixed bg-black/60" />
-        <Dialog.Content className="fixed overflow-hidden top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-[60vh] max-w-[640px] w-full rounded-md bg-slate-700 outline-none flex flex-col justify-between">
+        <Dialog.Content className=" fixed inset-0 md:inset-auto overflow-hidden md:top-1/2  md:left-1/2 md:-translate-x-1/2 md:-translate-y-1/2 md:h-[60vh] md:max-w-[640px] w-full md:rounded-md bg-slate-700 outline-none flex flex-col justify-between">
           <div className="flex flex-col gap-3 p-5">
             <span className="text-small font-medium text-slate-300">
               {formatDistanceToNow(note.date, {
@@ -37,6 +39,7 @@ export function NoteCard({ note }: NoteCardProps) {
           </div>
           <button
             type="button"
+            onClick={() => handleDelete(note.id)}
             className="w-full bg-slate-800 py-4 text-center text-sm text-slate-300 group font-medium outline-none"
           >
             Deseja{" "}
