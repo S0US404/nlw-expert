@@ -126,7 +126,8 @@ export function NewNote({ onNoteCreate }: NewNoteCardProps) {
               ) : (
                 <textarea
                   autoFocus
-                  className="text-sm leading-6 text-slate-400 bg-transparent resize-none outline-none"
+                  rows={10}
+                  className="text-sm leading-6 w-full text-slate-400 bg-transparent resize-none outline-none"
                   onChange={handleContenClick}
                   value={content}
                 />
@@ -137,10 +138,10 @@ export function NewNote({ onNoteCreate }: NewNoteCardProps) {
               <button
                 type="button"
                 onClick={HandleStopRecord}
-                className="w-full flex items-center justify-center gap-3 bg-slate-900 py-4 text-center text-sm text-slate-950 hover:bg-slate-500 font-medium outline-none"
+                className="h-full row-span-10 flex items-center justify-center gap-3 bg-slate-900 py-4 text-center text-sm text-slate-950 hover:bg-slate-500 font-medium outline-none"
               >
                 <div className="size-3 rounded-full bg-red-500 animate-pulse" />
-                Gravando! (click p/ interromper)
+                Gravando... (click p/ interromper)
               </button>
             ) : (
               <button

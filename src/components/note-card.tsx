@@ -35,7 +35,9 @@ export function NoteCard({ note, handleDelete }: NoteCardProps) {
                 addSuffix: true,
               })}
             </span>
-            <p className="text-sm leading-6 text-slate-400">{note.content}</p>
+            <p className="text-sm leading-6 text-slate-400 break-words">
+              {note.content}
+            </p>
           </div>
           <button
             type="button"
