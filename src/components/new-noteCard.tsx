@@ -82,7 +82,7 @@ export function NewNote({ onNoteCreate }: NewNoteCardProps) {
 
   return (
     <Dialog.Root>
-      <Dialog.Trigger className="hover:ring-2 hover:ring-slate-600 focus-visible:ring-2 rounded-md text-left flex flex-col bg-slate-700 gap-3 overflow-hidden outline-none relative focus-visible:ring-lime-400 focus:ring-2 focus:ring-lime-400">
+      <Dialog.Trigger className="hover:ring-2  hover:ring-slate-600 focus-visible:ring-2 rounded-md text-left flex flex-col bg-slate-700 gap-3 overflow-hidden outline-none  focus-visible:ring-lime-400 focus:ring-2 focus:ring-lime-400">
         <div className="rounded-md flex flex-col bg-lsate-700 text-left bg-slate-700 p-5 gap-3">
           <span className="text-sm font-medium text-slate-200">
             Adicionar Nota

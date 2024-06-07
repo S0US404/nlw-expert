@@ -57,10 +57,10 @@ export function App() {
       : note;
 
   return (
-    <div className="mx-auto max-w-6xl my-12 space-y-6 px-5 ">
+    <div className="mx-auto max-w-6xl  my-12 space-y-6 px-5 ">
       <img src={logo} alt="NLW" />
 
-      <form className="w-full mt-6">
+      <form className=" mt-6 ">
         <input
           type="text"
           onChange={handleSearch}
