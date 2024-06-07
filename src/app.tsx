@@ -57,25 +57,27 @@ export function App() {
       : note;
 
   return (
-    <div className="mx-auto max-w-6xl  my-12 space-y-6 px-5 ">
-      <img src={logo} alt="NLW" />
+    <div className="min-h-screen bg-slate-900 min-w-screen flex">
+      <div className="mx-auto max-w-6xl  my-12 space-y-6 px-5 ">
+        <img src={logo} alt="NLW" />
 
-      <form className=" mt-6 ">
-        <input
-          type="text"
-          onChange={handleSearch}
-          placeholder="Busque em suas notas..."
-          className="w-full bg-transparent text-3xl font-semibold outline-none tracking-tight placeholder:text-slate-500 "
-        />
-      </form>
+        <form className=" mt-6 ">
+          <input
+            type="text"
+            onChange={handleSearch}
+            placeholder="Busque em suas notas..."
+            className="w-full bg-transparent text-3xl font-semibold outline-none tracking-tight placeholder:text-slate-500 "
+          />
+        </form>
 
-      <div className="h-px bg-slate-700" />
+        <div className="h-px bg-slate-700" />
 
-      <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 auto-rows-[250px] ">
-        <NewNote onNoteCreate={onNoteCreate} />
-        {filteredNotes.map((item: any) => (
-          <NoteCard key={item.id} note={item} handleDelete={handleDelete} />
-        ))}
+        <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 auto-rows-[250px] ">
+          <NewNote onNoteCreate={onNoteCreate} />
+          {filteredNotes.map((item: any) => (
+            <NoteCard key={item.id} note={item} handleDelete={handleDelete} />
+          ))}
+        </div>
       </div>
     </div>
   );
