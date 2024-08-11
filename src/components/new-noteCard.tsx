@@ -138,7 +138,7 @@ export function NewNote({ onNoteCreate }: NewNoteCardProps) {
               <button
                 type="button"
                 onClick={HandleStopRecord}
-                className="h-full row-span-10 flex items-center justify-center gap-3 bg-slate-900 py-4 text-center text-sm text-slate-950 hover:bg-slate-500 font-medium outline-none"
+                className="h-16 animate-pulse row-span-10 flex items-center justify-center gap-3 bg-slate-900 py-4 text-center text-sm text-white hover:bg-slate-500 font-medium outline-none"
               >
                 <div className="size-3 rounded-full bg-red-500 animate-pulse" />
                 Gravando... (click p/ interromper)
