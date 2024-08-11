@@ -4,8 +4,8 @@ Welcome to the **Digital Notepad** project! This application is a modern and acc
 
 ## 🌟 Features
 
-- **Voice-Activated Notes**: Create and manage notes using your voice with the power of the SpeechRecognition API.
-- **Real-Time Transcription**: Convert speech to text instantly and accurately.
+- **Manage Notes**: Create and manage notes.
+- **Real-Time Transcription**: Convert speech to text instantly and accurately with the power of the SpeechRecognition API.
 - **User-Friendly Interface**: Designed with Tailwind CSS for a clean and responsive design.
 - **Cross-Browser Compatibility**: Works seamlessly across modern browsers.
 
