@@ -45,4 +45,4 @@ To get started with this project, follow these steps:
     ```bash
     npm run dev
 
-5. **Open your browser and visit http://localhost:3000 to see the app in action.**
+5. **Open your browser and visit http://localhost:5173/ to see the app in action.**
