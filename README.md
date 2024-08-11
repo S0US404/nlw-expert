@@ -1,6 +1,6 @@
 # 📝 Digital Notepad with Speech Recognition
 
-Welcome to the **Digital Notepad** project! This application is a modern and accessible tool designed to help users create and manage notes through voice commands. Built with the latest web technologies, it offers a seamless and intuitive user experience.
+Welcome to the **Digital Notepad** project! This application is a modern and accessible tool designed to help users create notes through voice commands. Built with the latest web technologies, it offers a seamless and intuitive user experience.
 
 ## 🌟 Features
 
@@ -31,4 +31,10 @@ To get started with this project, follow these steps:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/digital-notepad.git
+   git clone https://github.com/S0US404/nlw-expert.git
+
+2. **Navigate to the project directory**:
+```bash
+   cd nlw-expert
+
+ 3.    
