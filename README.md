@@ -22,8 +22,9 @@ This project is powered by:
 
 Add some screenshots here to give users a visual overview of the app.
 
-![Screenshot 1](./assets/nl1.png)
-![Screenshot 2](./assets/nl2.png)
+![nl1](https://github.com/user-attachments/assets/ecf2da90-5f45-4097-9a9c-d8f8a064dbdc)
+![nl2](https://github.com/user-attachments/assets/41b50c04-775f-48df-ba1e-e933fbdafcd0)
+
 
 ## 🛠️ Installation
 
