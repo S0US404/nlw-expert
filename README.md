@@ -22,8 +22,8 @@ This project is powered by:
 
 Add some screenshots here to give users a visual overview of the app.
 
-![Screenshot 1](./assets/logo.svg)
-![Screenshot 2](nl2.png)
+![Screenshot 1](./assets/nl1.png)
+![Screenshot 2](./assets/nl2.png)
 
 ## 🛠️ Installation
 
