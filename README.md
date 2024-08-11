@@ -34,7 +34,15 @@ To get started with this project, follow these steps:
    git clone https://github.com/S0US404/nlw-expert.git
 
 2. **Navigate to the project directory**:
-```bash
+    ```bash
    cd nlw-expert
 
- 3.    
+3. **Install dependencies**:
+    ```bash
+    npm install
+
+4. **Start the development server**:
+    ```bash
+    npm run dev
+
+5. **Open your browser and visit http://localhost:3000 to see the app in action.**
