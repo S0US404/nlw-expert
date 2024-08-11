@@ -46,3 +46,15 @@ To get started with this project, follow these steps:
     npm run dev
 
 5. **Open your browser and visit http://localhost:5173/ to see the app in action.**
+
+## 🤝 Contributing
+
+ - Contributions are welcome! If you have suggestions or find any issues, please feel free to open an issue or submit a pull request.
+
+## 📧 Contact
+
+For any inquiries or questions, feel free to reach out:
+
+- **LinkedIn**: linkedin.com/in/sousa05
+- **Email**: ilianosousa05@gmail.com
+
