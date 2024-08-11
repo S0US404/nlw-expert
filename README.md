@@ -56,6 +56,6 @@ To get started with this project, follow these steps:
 
 For any inquiries or questions, feel free to reach out:
 
-- **LinkedIn**: linkedin.com/in/sousa05
+- **LinkedIn**: www.linkedin.com/in/sousa05
 - **Email**: ilianosousa05@gmail.com
 
